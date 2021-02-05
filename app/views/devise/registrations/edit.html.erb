@@ -1,0 +1,65 @@
+<h2>Edit <%= resource_name.to_s.humanize %></h2>
+
+<%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
+  <%= render "devise/shared/error_messages", resource: resource %>
+
+  <div class="field">
+    <%= f.label :username, 'اسم المستخدم' %><br />
+    <%= f.text_field :username, autofocus: true, required: true %>
+
+  </div>
+ 
+<div class="field">
+    <%= f.label :age , 'العمر'  %><br />
+<%= f.number_field :age %> 
+</div>
+
+<div class="field">
+    <%= f.label :gender, 'الجنس' %><br />
+<%= f.text_field :gender %>
+</div>
+
+<div class="field">
+    <%= f.label :bio,'نبذه شخصية' %><br />
+<%= f.text_field :bio %>
+</div>
+
+
+  <div class="field">
+    <%= f.label :email, 'البريد الالكتروني' %><br />
+    <%= f.email_field :email, required: true %>
+  </div>
+
+  <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
+    <div>Currently waiting confirmation for: <%= resource.unconfirmed_email %></div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :password , 'كلمة المرور'%> <i>(اتركه فارغا اذا لم تكن ترغب بتغيير كلمة المرور)</i><br />
+    <%= f.password_field :password, autocomplete: "new-password" %>
+    <% if @minimum_password_length %>
+      <br />
+      <em><%= @minimum_password_length %> 'اتركه فارغا اذا لم تكن ترغب بتغيير كلمة المرور '</em>
+    <% end %>
+  </div>
+
+  <div class="field">
+    <%= f.label :password_confirmation,  'تاكيد كلمة المرور' %><br />
+    <%= f.password_field :password_confirmation, autocomplete: "new-password" %>
+  </div>
+
+  <div class="field">
+    <%= f.label :current_password ,  'كلمة المرور الحالية'%> <i>('تحتاج كلمة المرور الحالية لتاكيد التغيرات التي قمت بها')</i><br />
+    <%= f.password_field :current_password, autocomplete: "current-password" %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit "تعديل" %>
+  </div>
+<% end %>
+
+<h3>الغاء حسابي</h3>
+
+<p>اذا كنت غير سعيد? <%= button_to "الغاء حسابك", registration_path(resource_name), data: { confirm: "هل انت متاكد؟" }, method: :delete %></p>
+
+<%= link_to "رجوع", :back %>

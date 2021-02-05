@@ -1,0 +1,30 @@
+
+@import "bootstrap";
+@import 'pages.scss';
+@import "jquery.atwho";
+//=require jquery.atwho
+
+
+
+body {
+    padding-top: 70px;
+  }
+  
+  .timeline-centered,
+  .card,
+  .jumbotron-fluid,
+  .checkbox,
+  .alert,
+  input,
+  textarea {
+    direction: rtl;
+  }
+  
+  .btn-group {
+    direction: ltr;
+  }
+  
+  body, .dropdown-item {
+    text-align: right;
+  }
+  

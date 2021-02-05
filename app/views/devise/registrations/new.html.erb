@@ -1,0 +1,35 @@
+<h2>Sign up</h2>
+
+<%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+  <%= render "devise/shared/error_messages", resource: resource %>
+
+  <div class="field">
+    <%= f.label :username %><br />
+    <%= f.text_field :username,lable: 'اسم المستخدم', autofocus: true, required: true  %>
+  </div>
+
+  <div class="field">
+    <%= f.label :email %><br />
+    <%= f.email_field :email,lable: 'البريد الالكتروني', required: true %>
+  </div>
+
+  <div class="field">
+    <%= f.label :password %>
+    <% if @minimum_password_length %>
+    <em>(<%= @minimum_password_length %> 'اقل عدد حروف')</em>
+    <% end %><br />
+    <%= f.password_field :password,lable: 'كلمة المرور', autocomplete: "new-password" %>
+  </div>
+
+  <div class="field">
+    <%= f.label :password_confirmation %><br />
+    <%= f.password_field :password_confirmation,lable: 'تاكيد كمة المرور', autocomplete: "new-password" %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit "التسجيل" %>
+  </div>
+<% end %>
+
+<%= render "devise/shared/links" %>
+
