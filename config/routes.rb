@@ -19,6 +19,7 @@ Rails.application.routes.draw do
   resources :likes, only: [:create, :destroy], param: :likeable_id
   resources :comments, only: [:create, :destroy]
   resources :retweets, only: [:create, :destroy]
+  post :notifications, to:'notifications#mark_all_read'
 
   resources :mentions, only: [:index]
   get 'pages/timeline'

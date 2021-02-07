@@ -3,6 +3,7 @@
 @import 'pages.scss';
 @import "jquery.atwho";
 //=require jquery.atwho
+@import "font-awesome";
 
 
 
@@ -16,7 +17,8 @@ body {
   .checkbox,
   .alert,
   input,
-  textarea {
+  textarea,
+  a.dropdown-item {
     direction: rtl;
   }
   
