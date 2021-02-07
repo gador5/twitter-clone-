@@ -1,0 +1,18 @@
+current directory: C:/Users/-/Desktop/arabi_app/vendor/cache/ruby/2.7.0/gems/rinku-1.7.3/ext/rinku
+C:/Ruby27-x64/bin/ruby.exe -I C:/Ruby27-x64/lib/ruby/2.7.0 -r ./siteconf20210208-4324-ugko0t.rb extconf.rb
+creating Makefile
+
+current directory: C:/Users/-/Desktop/arabi_app/vendor/cache/ruby/2.7.0/gems/rinku-1.7.3/ext/rinku
+make "DESTDIR=" clean
+
+current directory: C:/Users/-/Desktop/arabi_app/vendor/cache/ruby/2.7.0/gems/rinku-1.7.3/ext/rinku
+make "DESTDIR="
+generating rinku-x64-mingw32.def
+compiling autolink.c
+compiling buffer.c
+compiling rinku.c
+linking shared-object rinku.so
+
+current directory: C:/Users/-/Desktop/arabi_app/vendor/cache/ruby/2.7.0/gems/rinku-1.7.3/ext/rinku
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 rinku.so ./.gem.20210208-4324-1kur4hc
