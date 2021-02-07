@@ -1,4 +1,4 @@
-class Add < ActiveRecord::Migration[6.1]
+class Add < ActiveRecord::Migration[5.2]
   def change
     add_column :users, :age, :integer
     add_column :users, :gender, :string
