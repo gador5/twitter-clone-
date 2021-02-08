@@ -134,7 +134,7 @@ GEM
     nokogiri (1.11.1-x64-mingw32)
       racc (~> 1.4)
     orm_adapter (0.5.0)
-    pg (1.2.3-x64-mingw32)
+    pg (1.2.3)
     popper_js (1.16.0)
     public_activity (1.6.4)
       actionpack (>= 3.0.0)
