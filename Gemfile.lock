@@ -284,6 +284,3 @@ DEPENDENCIES
   wdm (>= 0.1.0)
   web-console (>= 3.3.0)
   yard
-
-BUNDLED WITH
-   2.2.8
