@@ -15,8 +15,8 @@ Gem::Specification.new do |s|
   s.extra_rdoc_files = ["README.rdoc".freeze, "MIT-LICENSE".freeze]
   s.files = ["MIT-LICENSE".freeze, "README.rdoc".freeze]
   s.homepage = "http://www.juixe.com/techknow/index.php/2006/06/18/acts-as-commentable-plugin/".freeze
-  s.rubygems_version = "3.1.4".freeze
+  s.rubygems_version = "3.2.8".freeze
   s.summary = "Plugin/gem that provides comment functionality".freeze
 
-  s.installed_by_version = "3.1.4" if s.respond_to? :installed_by_version
+  s.installed_by_version = "3.2.8" if s.respond_to? :installed_by_version
 end

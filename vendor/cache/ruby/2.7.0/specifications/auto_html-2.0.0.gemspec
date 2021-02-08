@@ -13,10 +13,10 @@ Gem::Specification.new do |s|
   s.email = "desimic@gmail.com".freeze
   s.homepage = "https://github.com/dejan/auto_html".freeze
   s.licenses = ["MIT".freeze]
-  s.rubygems_version = "3.1.4".freeze
+  s.rubygems_version = "3.2.8".freeze
   s.summary = "Plain text to HTML conversion".freeze
 
-  s.installed_by_version = "3.1.4" if s.respond_to? :installed_by_version
+  s.installed_by_version = "3.2.8" if s.respond_to? :installed_by_version
 
   if s.respond_to? :specification_version then
     s.specification_version = 4

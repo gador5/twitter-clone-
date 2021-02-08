@@ -1,12 +1,12 @@
 current directory: C:/Users/-/Desktop/arabi_app/vendor/cache/ruby/2.7.0/gems/bcrypt-3.1.16/ext/mri
-C:/Ruby27-x64/bin/ruby.exe -I C:/Ruby27-x64/lib/ruby/2.7.0 -r ./siteconf20210208-4324-1fyjzoj.rb extconf.rb
+C:/Ruby27-x64/bin/ruby.exe -I C:/Ruby27-x64/lib/ruby/site_ruby/2.7.0 -r ./siteconf20210208-6452-m8xbx8.rb extconf.rb
 creating Makefile
 
 current directory: C:/Users/-/Desktop/arabi_app/vendor/cache/ruby/2.7.0/gems/bcrypt-3.1.16/ext/mri
-make "DESTDIR=" clean
+make DESTDIR\= clean
 
 current directory: C:/Users/-/Desktop/arabi_app/vendor/cache/ruby/2.7.0/gems/bcrypt-3.1.16/ext/mri
-make "DESTDIR="
+make DESTDIR\=
 generating bcrypt_ext-x64-mingw32.def
 compiling bcrypt_ext.c
 compiling crypt_blowfish.c
@@ -19,5 +19,5 @@ wrapper.c:182:60: warning: 'struct crypt_data' declared inside parameter list wi
 linking shared-object bcrypt_ext.so
 
 current directory: C:/Users/-/Desktop/arabi_app/vendor/cache/ruby/2.7.0/gems/bcrypt-3.1.16/ext/mri
-make "DESTDIR=" install
-/usr/bin/install -c -m 0755 bcrypt_ext.so ./.gem.20210208-4324-19wydre
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 bcrypt_ext.so ./.gem.20210208-6452-1elsmgx

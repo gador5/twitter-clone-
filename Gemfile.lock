@@ -58,7 +58,7 @@ GEM
       execjs
     bcrypt (3.1.16)
     bindex (0.8.1)
-    bootsnap (1.7.1)
+    bootsnap (1.7.2)
       msgpack (~> 1.0)
     bootstrap (4.0.0)
       autoprefixer-rails (>= 6.0.3)
@@ -97,7 +97,6 @@ GEM
       devise (>= 4.7.1)
     erubi (1.10.0)
     execjs (2.7.0)
-    ffi (1.14.2)
     ffi (1.14.2-x64-mingw32)
     font-awesome-rails (4.7.0.6)
       railties (>= 3.2, < 6.2)
@@ -129,17 +128,12 @@ GEM
     method_source (1.0.0)
     mimemagic (0.3.5)
     mini_mime (1.0.2)
-    mini_portile2 (2.5.0)
     minitest (5.14.3)
     msgpack (1.4.2)
     nio4r (2.5.5)
-    nokogiri (1.11.1)
-      mini_portile2 (~> 2.5.0)
-      racc (~> 1.4)
     nokogiri (1.11.1-x64-mingw32)
       racc (~> 1.4)
     orm_adapter (0.5.0)
-    pg (1.2.3)
     pg (1.2.3-x64-mingw32)
     popper_js (1.16.0)
     public_activity (1.6.4)
@@ -183,7 +177,7 @@ GEM
       method_source
       rake (>= 0.8.7)
       thor (>= 0.19.0, < 2.0)
-    rake (0.8.7)
+    rake (13.0.3)
     rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -253,7 +247,6 @@ GEM
     yard (0.9.26)
 
 PLATFORMS
-  ruby
   x64-mingw32
 
 DEPENDENCIES
@@ -281,7 +274,6 @@ DEPENDENCIES
   rails (~> 5.2.4, >= 5.2.4.4)
   rails-i18n (~> 5.1)
   rails-timeago (~> 2.0)
-  rake (= 0.8.7)
   sass-rails (~> 5.0)
   selenium-webdriver
   simple_form (~> 5.0, >= 5.0.3)
@@ -294,3 +286,9 @@ DEPENDENCIES
   wdm (>= 0.1.0)
   web-console (>= 3.3.0)
   yard
+
+RUBY VERSION
+   ruby 2.7.2p137
+
+BUNDLED WITH
+   2.2.8

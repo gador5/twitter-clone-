@@ -1,5 +1,5 @@
 current directory: C:/Users/-/Desktop/arabi_app/vendor/cache/ruby/2.7.0/gems/sqlite3-1.4.2/ext/sqlite3
-C:/Ruby27-x64/bin/ruby.exe -I C:/Ruby27-x64/lib/ruby/2.7.0 -r ./siteconf20210208-4324-1ldu6xy.rb extconf.rb
+C:/Ruby27-x64/bin/ruby.exe -I C:/Ruby27-x64/lib/ruby/site_ruby/2.7.0 -r ./siteconf20210208-11420-17noz74.rb extconf.rb
 checking for sqlite3.h... yes
 checking for pthread_create() in -lpthread... yes
 checking for -ldl... no
@@ -18,10 +18,10 @@ checking for sqlite3_uint64 in sqlite3.h... yes
 creating Makefile
 
 current directory: C:/Users/-/Desktop/arabi_app/vendor/cache/ruby/2.7.0/gems/sqlite3-1.4.2/ext/sqlite3
-make "DESTDIR=" clean
+make DESTDIR\= clean
 
 current directory: C:/Users/-/Desktop/arabi_app/vendor/cache/ruby/2.7.0/gems/sqlite3-1.4.2/ext/sqlite3
-make "DESTDIR="
+make DESTDIR\=
 generating sqlite3_native-x64-mingw32.def
 compiling aggregator.c
 compiling backup.c
@@ -73,5 +73,5 @@ compiling statement.c
 linking shared-object sqlite3/sqlite3_native.so
 
 current directory: C:/Users/-/Desktop/arabi_app/vendor/cache/ruby/2.7.0/gems/sqlite3-1.4.2/ext/sqlite3
-make "DESTDIR=" install
-/usr/bin/install -c -m 0755 sqlite3_native.so ./.gem.20210208-4324-1ldf3l7/sqlite3
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 sqlite3_native.so ./.gem.20210208-11420-716u8s/sqlite3

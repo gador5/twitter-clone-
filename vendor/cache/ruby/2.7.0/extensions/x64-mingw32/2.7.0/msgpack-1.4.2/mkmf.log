@@ -129,7 +129,7 @@ checked program was:
 /* end */
 
 "x86_64-w64-mingw32-gcc -o conftest.exe -IC:/Ruby27-x64/include/ruby-2.7.0/x64-mingw32 -IC:/Ruby27-x64/include/ruby-2.7.0/ruby/backward -IC:/Ruby27-x64/include/ruby-2.7.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong conftest.c  -L. -LC:/Ruby27-x64/lib -L. -pipe -s -fstack-protector-strong     -lx64-msvcrt-ruby270  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi  "
-C:/Ruby27-x64/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\-\AppData\Local\Temp\cc7UQtXY.o:conftest.c:(.text+0x5): undefined reference to `rb_enc_interned_str'
+C:/Ruby27-x64/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\-\AppData\Local\Temp\cck1Jggg.o:conftest.c:(.text+0x5): undefined reference to `rb_enc_interned_str'
 collect2.exe: error: ld returned 1 exit status
 checked program was:
 /* begin */

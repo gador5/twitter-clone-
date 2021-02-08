@@ -12,10 +12,10 @@ Gem::Specification.new do |s|
   s.description = "This is a jQuery plugin\n    that implement Github-like mentions.".freeze
   s.email = ["chord.luo@gmail.com".freeze]
   s.homepage = "http://ichord.github.com/jquery-atwho-rails".freeze
-  s.rubygems_version = "3.1.4".freeze
+  s.rubygems_version = "3.2.8".freeze
   s.summary = "jquery plugin: @mentions".freeze
 
-  s.installed_by_version = "3.1.4" if s.respond_to? :installed_by_version
+  s.installed_by_version = "3.2.8" if s.respond_to? :installed_by_version
 
   if s.respond_to? :specification_version then
     s.specification_version = 4
