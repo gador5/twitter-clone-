@@ -43,7 +43,7 @@ gem 'jquery-rails'
 gem 'rails-i18n', '~> 5.1'
 gem 'devise-i18n'
 gem 'rails-timeago', '~> 2.0'
-
+gem 'yard'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
