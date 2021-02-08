@@ -97,7 +97,7 @@ GEM
       devise (>= 4.7.1)
     erubi (1.10.0)
     execjs (2.7.0)
-    ffi (1.14.2)
+    ffi (1.14.2-x64-mingw32)
     font-awesome-rails (4.7.0.6)
       railties (>= 3.2, < 6.2)
     gemoji (2.1.0)
@@ -131,10 +131,10 @@ GEM
     minitest (5.14.3)
     msgpack (1.4.2)
     nio4r (2.5.5)
-    nokogiri (1.11.1-x86_64-linux)
+    nokogiri (1.11.1-x64-mingw32)
       racc (~> 1.4)
     orm_adapter (0.5.0)
-    pg (1.2.3)
+    pg (1.2.3-x64-mingw32)
     popper_js (1.16.0)
     public_activity (1.6.4)
       actionpack (>= 3.0.0)
@@ -284,3 +284,6 @@ DEPENDENCIES
   wdm (>= 0.1.0)
   web-console (>= 3.3.0)
   yard
+
+BUNDLED WITH
+   2.2.9
