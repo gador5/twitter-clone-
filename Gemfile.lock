@@ -97,7 +97,7 @@ GEM
       devise (>= 4.7.1)
     erubi (1.10.0)
     execjs (2.7.0)
-    ffi (1.14.2-x64-mingw32)
+    ffi (1.14.2)
     font-awesome-rails (4.7.0.6)
       railties (>= 3.2, < 6.2)
     gemoji (2.1.0)
