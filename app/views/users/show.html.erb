@@ -47,9 +47,11 @@
           <div class="card-header">
             <%= fa_icon 'list', text: 'الأنشطة' %>
           </div>
+          <% unless @activities.blank? %>
           <ul class="list-group list-group-flush">
             <%= render_activities(@activities) %>
           </ul>
+          <%end%>
         </div>
       </div>
     </div>
